@@ -15,3 +15,9 @@ body{
 .selection:hover{
   transform: scale(1.2);
 }
+@media only screen and (max-width: 768px) {
+  .selection{
+    font-size: 3rem;
+  }
+
+}
