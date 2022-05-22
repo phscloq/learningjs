@@ -41,13 +41,13 @@ function computerChoice(){
 
 function getResults(){
     if(userChoice==='rock' && compChoice==='Rock' || userChoice==='paper' && compChoice==='Paper' || userChoice==='scissors' && compChoice==='Scissors'){
-        resultDisplay.innerHTML='Result of round ${round} : Tie';
+        resultDisplay.innerHTML='Result of round'+round+'is a big F Tie';
        
       
         
     }
     else if(userChoice==='rock' && compChoice==='Paper'||userChoice==='paper' && compChoice==='Scissors'||userChoice==='scissors' && compChoice==='Rock'){
-        resultDisplay.innerHTML='Computer won the round '+round+'! Because ${compChoice} beats ${userChoice}!';
+        resultDisplay.innerHTML='Computer won the round '+round+'! Because '+compChoice+' beats '+userChoice;
         computerScore++;
         computerScoreDisplay.innerHTML=computerScore;
         userScoreDisplay.innerHTML=userScore;
