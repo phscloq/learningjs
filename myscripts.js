@@ -66,4 +66,13 @@ function log(){
     console.log(div);
     document.body.appendChild(div);
 }
-
+function gameEnd(){
+    if(userScore===5){
+        alert('You won the game!');
+        location.reload();
+    }
+    else if(computerScore===5){
+        alert('Computer won the game!');
+        location.reload();
+    }
+}
