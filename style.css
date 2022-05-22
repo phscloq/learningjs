@@ -1,0 +1,17 @@
+body{
+  background-color:bisque
+}
+.selections{
+  display: flex;
+  justify-content: center;
+}
+.selection{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 5rem;
+  transition: 115ms;
+}
+.selection:hover{
+  transform: scale(1.2);
+}
